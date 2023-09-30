@@ -1,6 +1,7 @@
 import { Router } from "express";
 import authRoutes from "./auth.routes";
 import devicesRoutes from "./devices.routes";
+import usuarioRoutes from "./usuario.routes";
 
 
 class Routes {
@@ -13,6 +14,7 @@ class Routes {
     config(): void{
         this.router.use('/auth', authRoutes);
         this.router.use('/devices', devicesRoutes);
+        this.router.use('/users', usuarioRoutes);
     }
 }
 

@@ -11,14 +11,14 @@ class AuthRoutes {
     }
 
     config(): void{
-       this.router.post('/registro', [  cleanRequest.cleanAuthAndUser, validacion.verificarExisteUsernameOemail,
+       this.router.post('/registro', [ readRequest.decryptRequest, cleanRequest.cleanAuthAndUser, validacion.verificarExisteUsernameOemail,
         validacion.verificarCamposObligatoriosRegistroUsuario ], authController.registrar)
-       this.router.post('/login',[  cleanRequest.cleanAuthAndUser ], authController.login)
-       this.router.post('/loginPanel',[  cleanRequest.cleanAuthAndUser ], authController.loginPanel)
+       this.router.post('/login',[ readRequest.decryptRequest, cleanRequest.cleanAuthAndUser ], authController.login)
+       this.router.post('/loginPanel',[ readRequest.decryptRequest, cleanRequest.cleanAuthAndUser ], authController.loginPanel)
        this.router.post('/verify/:username', authController.verify2fa);
        this.router.get('/resend-code/:username', authController.resendCode);
 
-       this.router.post('/restablecerClave', [  cleanRequest.cleanAuthAndUser ], authController.restablecerClave )
+       this.router.post('/restablecerClave', [ readRequest.decryptRequest, cleanRequest.cleanAuthAndUser ], authController.restablecerClave )
        this.router.get('/confirm/:token', authController.confirmAccount)
 
     }

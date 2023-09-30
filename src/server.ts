@@ -6,7 +6,12 @@ import App from './app';
 
 const server = new App();
 
-createRole();
-createAdm();
+const initialSetup = async () => {
+
+    await createRole();
+    await createAdm();
+}
+
+initialSetup();
 
 server.start();

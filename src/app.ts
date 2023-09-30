@@ -5,12 +5,13 @@ import compression from 'compression';
 import helmet from 'helmet';
 import { queryParser } from 'express-query-parser';
 import { connectDB } from './database';
+import indexRoutes from '@Routes/index.routes';
 
 // const showDataLog = require('./util/logger/logger');
 
 connectDB();
 
-class App {
+export default class App {
     public app: Application;
     private IP = process.env.IP;
 
@@ -45,7 +46,7 @@ class App {
     }
 
     router(): void{
-        // this.app.use( indexRoutes );
+        this.app.use( '/v1',indexRoutes );
     }
 
     start(): void {
@@ -58,4 +59,4 @@ class App {
     
 }
 
-export default App;
+// export default App;

@@ -12,11 +12,11 @@ class IndexRoutes {
     config(): void{
         this.router.get( '/', (req, res) => {
             res.send("Inicio")
-        } )
-        this.router.use( '/api', routes )
+        } );
+        this.router.use( '/api', routes );
         this.router.get( '/docs', (req, res) => {
             res.send("Docs")
-        } )
+        } );
         
     }
 }

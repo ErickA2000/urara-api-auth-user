@@ -7,7 +7,7 @@ import { queryParser } from 'express-query-parser';
 import { connectDB } from './database';
 import indexRoutes from '@Routes/index.routes';
 
-// const showDataLog = require('./util/logger/logger');
+const showDataLog = require('./util/logger/logger');
 
 connectDB();
 
@@ -52,7 +52,7 @@ export default class App {
     start(): void {
         this.app.listen( this.app.get('port'), () => {
             console.log(`Server on http://${this.IP}:${this.app.get('port')}`)
-            // showDataLog.info({ message: 'Server running' })
+            showDataLog.info({ message: 'Server running' })
         })
     }
 

@@ -50,7 +50,8 @@ interface Idireccion{
     callenumero: string,
     numero1: string,
     numero2: string,
-    especificacionOpcional: string
+    especificacionOpcional: string,
+    forInvoice: boolean
 }
 
 export interface IUserModel extends Model<IUser>{

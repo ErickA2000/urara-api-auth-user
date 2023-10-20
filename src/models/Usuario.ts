@@ -39,7 +39,8 @@ const direccionSchema = new Schema({
     callenumero: String,
     numero1: String,
     numero2: String,
-    especificacionOpcional: String
+    especificacionOpcional: String,
+    forInvoice: Boolean
 },{
     _id: false,
     timestamps: false

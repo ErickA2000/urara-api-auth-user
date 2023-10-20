@@ -136,6 +136,7 @@ class UsuarioController{
             message: "El usuario no existe" 
         });
 
+        //cuando se cambia el correo
         if( updateUser.email || updateUser.email != undefined  ){
             if( updateUser.email != user.email ){
                 updateUser.emailverified = false;
@@ -153,6 +154,7 @@ class UsuarioController{
             }
         }
 
+        //sobre verificacion en dos pasos
         if( updateUser.verify2fa ){
             if( updateUser.verify2fa.estado ){
                 updateUser.verify2fa.fechaActivacion = new Date( Date.now() );  

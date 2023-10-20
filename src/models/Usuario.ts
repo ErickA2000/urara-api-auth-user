@@ -34,7 +34,11 @@ const direccionSchema = new Schema({
     pais: String,
     departamento: String,
     ciudad: String,
-    direccion: String,
+    barrio: String,
+    tipocalle: String,
+    callenumero: String,
+    numero1: String,
+    numero2: String,
     especificacionOpcional: String
 },{
     _id: false,

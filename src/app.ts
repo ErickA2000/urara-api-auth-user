@@ -23,9 +23,7 @@ export default class App {
 
     private corsOptions: CorsOptions = {
         exposedHeaders: ['token'],
-        origin: ['http://localhost:4200', 'https://panel-urara.netlify.app', 
-        'http://192.168.1.19:4200', 'http://localhost:45537', 
-        "http://localhost:8080"]
+        origin: this.getOrigins()
 
     }
 
@@ -47,6 +45,19 @@ export default class App {
 
     router(): void{
         this.app.use( '/v1',indexRoutes );
+    }
+
+    private getOrigins(): string[]{
+        
+        const origins = process.env.ORIGINS;
+
+        if( origins != undefined ){
+            let arrayOrigins = origins.split(',');
+            return arrayOrigins;
+
+        }else{
+            return ['*']
+        }
     }
 
     start(): void {

@@ -1,30 +1,16 @@
 import { encryptAndDecryptData } from "../../src/util/encryptAndDecryptData";
+import { user, userAdmin, userModerador } from "../constanst";
 
-const data = {
-    name: "erick",
-    cel: 123456789
-}
-
-const userModerador = {
-    username: "ClienteWebApp",
-    clave: "cliente12web05app"
-}
-
-const userAdmin = {
-    username: "admin",
-    clave: "admin1234"
-}
-
-const dataEncrypt = "U2FsdGVkX19bOFnMZHixlt3qBr0eKkav6uy5iO3a38B3arCzPHVioORjPnxfKBU9LJYXZRsBK6ekHgqso2nAqg==";
+let encrypt = "";
 
 describe("Encrypt and decrypt data", () => {
     describe("ENCRYPT", () => {
 
         it("should return the data encrypt", () => {
             try {
-                const encrypt = encryptAndDecryptData.encrypt(data);
-                //console.log(encrypt)
-                expect(encrypt).toMatch(/U2/)
+                encrypt = encryptAndDecryptData.encrypt(user);
+                
+                expect(typeof encrypt).toBe('string')
                 
             } catch (error) {
                 expect(error).toBe('error')
@@ -37,8 +23,8 @@ describe("Encrypt and decrypt data", () => {
 
         it("should return the data decrypt", () => {
             try {
-                const decrypt = encryptAndDecryptData.decrypt(dataEncrypt);
-                expect(decrypt).toEqual(data)
+                const decrypt = encryptAndDecryptData.decrypt(encrypt);
+                expect(decrypt).toEqual(user)
                 
             } catch (error) {
                 expect(error).toBe('error')

@@ -1,4 +1,7 @@
 /** @type {import('jest').Config} */
+
+import { compilerOptions } from "./tsconfig.json"; 
+
 const config = {
   roots: ['<rootDir>'],
     collectCoverageFrom: [
@@ -33,7 +36,8 @@ const config = {
       'jest-watch-typeahead/testname'
     ],
     resetMocks: true,
-    testTimeout: 5000
+    testTimeout: 5000,
+    moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths)
 };
 
 module.exports = config;  

@@ -4,13 +4,33 @@ export const userModerador = {
 };
 
 export const userAdmin = {
-    username: "admin",
-    clave: "admin1234"
+    good: {
+        username: "admin",
+        clave: "admin1234"
+    },
+    wrongPass: {
+        username: 'admin',
+        clave: "admin123"
+    },
+    noExistent: {
+        username: 'inexistente',
+        clave: "user1general52c"
+    }
 }
 
 export const user = {
-    username: 'general',
-    clave: "user1general52compra"
+    good: {
+        username: 'general',
+        clave: "user1general52compra"
+    },
+    wrongPass: {
+        username: 'general',
+        clave: "user1general52"
+    },
+    noExistent: {
+        username: 'inexistente',
+        clave: "user1general52c"
+    }
 };
 
 export const encryptUser = {

@@ -448,21 +448,21 @@ class AuthController {
                 for( let metodo of user.verify2fa.metodos ){
                     if( metodo.tipo === "email" && metodo.estado === true ){
                         user.verify2fa.code_access = code;
+                        await user.save();
+        
+                        //Enviar email con codigo
+                        const body = `<p>Código de verificación: ${code}</p>`;
+                        const sendMail = await sendEmail( user.email, "Verificación en dos pasos - URARA", body );
+        
+                        if( sendMail.success === false ){
+                            return res.status(CODES_HTTP.INTERNAL_SERVER_ERROR).json({
+                                success: false,
+                                message:  'Error al enviar Email ->'+ sendMail.message
+                            })
+                        }
                     }    
                 }
 
-                await user.save();
-
-                //Enviar email con codigo
-                const body = `<p>Código de verificación: ${code}</p>`;
-                const sendMail = await sendEmail( user.email, "Verificación en dos pasos - URARA", body );
-
-                if( sendMail.success === false ){
-                    return res.status(CODES_HTTP.INTERNAL_SERVER_ERROR).json({
-                        success: false,
-                        message:  'Error al enviar Email ->'+ sendMail.message
-                    })
-                }
                 res.status(CODES_HTTP.OK).json({
                     success: true,
                     message: "verification_in_process"

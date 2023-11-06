@@ -15,6 +15,10 @@ export const userAdmin = {
     noExistent: {
         username: 'inexistente',
         clave: "user1general52c"
+    },
+    noVerify: {
+        username: 'test1',
+        clave: '11eeeee'
     }
 }
 
@@ -30,14 +34,14 @@ export const user = {
     noExistent: {
         username: 'inexistente',
         clave: "user1general52c"
+    },
+    noVerify: {
+        username: 'user_test0.27711777121470305',
+        clave: '11eeeeee'
     }
 };
 
-export const encryptUser = {
-    modetator: "U2FsdGVkX1/8S139B6aSLRJu7SYR22mmj9VAtRro7wjMHVCR+lzMnl/nW/hm9D+UoxUKP/XXmtaBeHuEuGptSTwnkrjao8a8/JoaqckR+nA=",
-    admin: "U2FsdGVkX1+yGiqWWP0rTsQbT2Z9UfKHqoaIb7hIKYOrqD9quQQmZNqoywPnGEVm7S26xNGhUV6ZhCE84FbEBg==", 
-    user: "U2FsdGVkX1+qFjeVcJEfRTCHZiJsnaMYb1XRkILKi/wD4E/29kKtPTcjjYBpXHz86vhzm6FFu4IKsj8N0xRgn1EffW0S5+/oaQeWWV4dtbo="
-};
+
 
 export const newUser = {
     nombre: "nombre prueba",

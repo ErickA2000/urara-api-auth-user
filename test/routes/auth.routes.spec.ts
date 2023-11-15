@@ -1,15 +1,11 @@
 import { connectDB, disconnectDB } from "../../src/database";
-import { encryptAndDecryptData } from "../../src/util/encryptAndDecryptData";
 import { newUser, user, userAdmin } from '../constanst';
 import { post } from "../helpers/petitions";
 import type { Response } from 'superagent';
+import { encrypt } from "../helpers/encrypt";
 
 const baseUrl = "/v1/api/auth";
 
-//Encriptar datos de nuevo usuario
-// let reqEncrypt = {
-//     reqEncrypt: ""
-// };
 const failReqEncrypt = {
     reqEncryp: ""
 }
@@ -281,11 +277,3 @@ describe( "Test auth routes", () => {
     
 
 } )
-
-
-function encrypt( data: Object ){
-    const encrypt = encryptAndDecryptData.encrypt(data);
-    return {
-        reqEncrypt: encrypt
-    }
-}

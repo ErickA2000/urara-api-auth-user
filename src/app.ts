@@ -66,6 +66,4 @@ export default class App {
             showDataLog.info({ message: 'Server running' })
         })
     }
-
-    
 }

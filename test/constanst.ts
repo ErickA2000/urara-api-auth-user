@@ -1,3 +1,7 @@
+export const failReqEncrypt = {
+    reqEncryp: ""
+}
+
 export const userModerador = {
     username: "ClienteWebApp",
     clave: "cliente12web05app"
@@ -41,8 +45,6 @@ export const user = {
     }
 };
 
-
-
 export const newUser = {
     nombre: "nombre prueba",
     telefono: {
@@ -62,4 +64,24 @@ export const newUser = {
         ],
         code_access: ""
     }
+}
+
+export const device = {
+    ipv4: "",
+    ubicacion: "colombia",
+    plataform: "desktop",
+    navegador: "chrome",
+    dispositivo: "linux"
+}
+
+export const CODES_HTTP = {
+    OK: 200,
+    CREATED: 201,
+    NO_CONTENT: 204,
+    BAD_REQUEST: 400,
+    UNAUTHORIZED: 401,
+    FORBIDDEN: 403,
+    NO_FOUND: 404,
+    CONFLICT: 409,
+    INTERNAL_SERVER_ERROR: 500
 }

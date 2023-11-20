@@ -74,3 +74,85 @@
 [2023-11-15T14:30:43.183Z] warn Login panel | email no verificado -> civix28785@estudys.com
 [2023-11-15T14:30:43.359Z] warn Login panel | Contraseña incorrecta - user --> admin
 [2023-11-15T14:30:43.497Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-15T14:36:57.683Z] info Usuario registrado sin confirmar email-> user_test0.32636332047103767
+[2023-11-15T14:36:57.986Z] info Login usuario | Inicio sesion - user -> general
+[2023-11-15T14:36:58.030Z] warn Login usuario | No existe el usuario -> inexistente
+[2023-11-15T14:36:58.111Z] warn Login usuario | email no verificado -> failemail0.16561480992708688@gmail.com
+[2023-11-15T14:36:58.244Z] warn Login usuario | Contraseña incorrecta - user -> general
+[2023-11-15T14:36:58.387Z] warn Login usuario | Acceso no permitido - user -> admin
+[2023-11-15T14:36:58.528Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-15T14:36:58.571Z] warn Login panel | No existe el usuario -> inexistente
+[2023-11-15T14:36:58.601Z] warn Login panel | email no verificado -> civix28785@estudys.com
+[2023-11-15T14:36:58.742Z] warn Login panel | Contraseña incorrecta - user --> admin
+[2023-11-15T14:36:58.891Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-20T19:23:57.525Z] info Usuario registrado sin confirmar email-> user_test0.13101440271547027
+[2023-11-20T19:23:58.016Z] info Login usuario | Inicio sesion - user -> general
+[2023-11-20T19:23:58.084Z] warn Login usuario | No existe el usuario -> inexistente
+[2023-11-20T19:23:58.209Z] warn Login usuario | email no verificado -> failemail0.16561480992708688@gmail.com
+[2023-11-20T19:23:58.424Z] warn Login usuario | Contraseña incorrecta - user -> general
+[2023-11-20T19:23:58.641Z] warn Login usuario | Acceso no permitido - user -> admin
+[2023-11-20T19:23:58.878Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T19:23:58.962Z] warn Login panel | No existe el usuario -> inexistente
+[2023-11-20T19:23:59.014Z] warn Login panel | email no verificado -> civix28785@estudys.com
+[2023-11-20T19:23:59.224Z] warn Login panel | Contraseña incorrecta - user --> admin
+[2023-11-20T19:23:59.446Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-20T19:24:01.457Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T19:25:06.418Z] info Usuario registrado sin confirmar email-> user_test0.3352558884719825
+[2023-11-20T19:25:06.959Z] info Login usuario | Inicio sesion - user -> general
+[2023-11-20T19:25:07.028Z] warn Login usuario | No existe el usuario -> inexistente
+[2023-11-20T19:25:07.158Z] warn Login usuario | email no verificado -> failemail0.16561480992708688@gmail.com
+[2023-11-20T19:25:07.368Z] warn Login usuario | Contraseña incorrecta - user -> general
+[2023-11-20T19:25:07.601Z] warn Login usuario | Acceso no permitido - user -> admin
+[2023-11-20T19:25:07.838Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T19:25:07.908Z] warn Login panel | No existe el usuario -> inexistente
+[2023-11-20T19:25:07.956Z] warn Login panel | email no verificado -> civix28785@estudys.com
+[2023-11-20T19:25:08.175Z] warn Login panel | Contraseña incorrecta - user --> admin
+[2023-11-20T19:25:08.395Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-20T19:25:10.158Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T19:26:58.356Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:42:54.533Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:44:01.629Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:44:38.345Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:46:33.521Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:49:36.851Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:50:06.366Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:53:34.631Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:54:00.709Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:55:10.706Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:55:30.506Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:56:02.100Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T20:58:52.581Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:04:25.923Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:04:51.662Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:05:10.282Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:05:31.282Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:09:11.627Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:09:30.884Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:09:58.968Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:10:41.529Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:11:54.672Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:17:06.008Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:17:53.124Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:17:54.374Z] info Usuario registrado sin confirmar email-> user_test0.04448045625731867
+[2023-11-20T21:17:54.673Z] info Login usuario | Inicio sesion - user -> general
+[2023-11-20T21:17:54.725Z] warn Login usuario | No existe el usuario -> inexistente
+[2023-11-20T21:17:54.812Z] warn Login usuario | email no verificado -> failemail0.16561480992708688@gmail.com
+[2023-11-20T21:17:54.958Z] warn Login usuario | Contraseña incorrecta - user -> general
+[2023-11-20T21:17:55.103Z] warn Login usuario | Acceso no permitido - user -> admin
+[2023-11-20T21:17:55.246Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:17:55.289Z] warn Login panel | No existe el usuario -> inexistente
+[2023-11-20T21:17:55.321Z] warn Login panel | email no verificado -> civix28785@estudys.com
+[2023-11-20T21:17:55.469Z] warn Login panel | Contraseña incorrecta - user --> admin
+[2023-11-20T21:17:55.621Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-20T21:18:24.240Z] info Usuario registrado sin confirmar email-> user_test0.426270223781253
+[2023-11-20T21:18:24.625Z] info Login usuario | Inicio sesion - user -> general
+[2023-11-20T21:18:24.668Z] warn Login usuario | No existe el usuario -> inexistente
+[2023-11-20T21:18:24.747Z] warn Login usuario | email no verificado -> failemail0.16561480992708688@gmail.com
+[2023-11-20T21:18:24.886Z] warn Login usuario | Contraseña incorrecta - user -> general
+[2023-11-20T21:18:25.026Z] warn Login usuario | Acceso no permitido - user -> admin
+[2023-11-20T21:18:25.181Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-20T21:18:25.234Z] warn Login panel | No existe el usuario -> inexistente
+[2023-11-20T21:18:25.265Z] warn Login panel | email no verificado -> civix28785@estudys.com
+[2023-11-20T21:18:25.399Z] warn Login panel | Contraseña incorrecta - user --> admin
+[2023-11-20T21:18:25.537Z] warn Login panel | Acceso no permitido - user --> general
+[2023-11-20T21:18:26.654Z] info Login panel | Inicio sesion - user --> admin 

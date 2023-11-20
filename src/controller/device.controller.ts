@@ -133,7 +133,7 @@ class DevicesController{
         devicesDAO.add( addNewDevice )
             .then( device => {
 
-                res.status(CODES_HTTP.CREATED).json({
+                res.status(CODES_HTTP.OK).json({
                     success: true,
                     message: "Nuevo dispositivo agregado"
                 })

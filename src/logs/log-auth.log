@@ -156,3 +156,10 @@
 [2023-11-20T21:18:25.399Z] warn Login panel | Contraseña incorrecta - user --> admin
 [2023-11-20T21:18:25.537Z] warn Login panel | Acceso no permitido - user --> general
 [2023-11-20T21:18:26.654Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:08:50.124Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:17:04.849Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:19:50.364Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:20:13.962Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:22:53.850Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:25:04.069Z] info Login panel | Inicio sesion - user --> admin 
+[2023-11-21T19:26:22.948Z] info Login panel | Inicio sesion - user --> admin 

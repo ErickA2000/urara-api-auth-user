@@ -17,7 +17,8 @@ describe( "Test devices routes", () => {
 
     let token: string;
 
-    describe( "", () => {
+    //Login as administrator
+    describe( "Login as administrator", () => {
         const url = `/v1/api/auth/loginPanel`;
 
         it("should respond with 200 status code", async () => {
@@ -74,6 +75,7 @@ describe( "Test devices routes", () => {
         })
     });
 
+    //GET all devices
     describe("GET all devices", () => {
         const url = `${baseUrl}`;
 
@@ -112,6 +114,7 @@ describe( "Test devices routes", () => {
         })
     })
 
+    //GET devices by user
     describe("GET devices by user", () => {
         const url = `${baseUrl}/user`;
 
@@ -149,6 +152,7 @@ describe( "Test devices routes", () => {
         })
     })
 
+    //GET verify device
     describe("GET verify device", () => {
         const url = `${baseUrl}/verify`;
 
@@ -187,6 +191,7 @@ describe( "Test devices routes", () => {
         })
     })
 
+    //GET this device
     describe("GET this device", () => {
         const url = `${baseUrl}/this`;
 

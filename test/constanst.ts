@@ -66,6 +66,18 @@ export const newUser = {
     }
 }
 
+export const createUser: user = {
+    nombre: "nombre prueba",
+    telefono: {
+        codigo_area: "+57",
+        numero: "3124567890"
+    },
+    email: `failemail${ Math.random() }@gmail.com`,
+    username: `user_test${ Math.random() }`,
+    clave: "11eeeeee",
+    roles: ['admin']
+}
+
 export const device = {
     ipv4: "",
     ubicacion: "colombia",
@@ -84,4 +96,16 @@ export const CODES_HTTP = {
     NO_FOUND: 404,
     CONFLICT: 409,
     INTERNAL_SERVER_ERROR: 500
+}
+
+interface user {
+    nombre: string,
+    telefono: {
+        codigo_area: string,
+        numero: string
+    },
+    email: string,
+    username: string,
+    clave: string,
+    roles?: string[]
 }

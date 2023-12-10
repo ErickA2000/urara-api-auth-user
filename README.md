@@ -8,9 +8,13 @@ The project needs some environment variables, look at the `.env.example` file.
 1. Nodejs >= v16
 2. MongoDB
 
+Optionally
+
+3. Docker. To run in container
+
 ## Run project
 
-1. Install dependencies with 
+1. Install dependencies 
 ```shell
 $ npm install
 ```
@@ -52,7 +56,7 @@ to build and immediately run.
 
 1. Generate image
 ```shell
-$ docker build -t name-iamge:tag .
+$ docker build -t name-image:tag .
 ```
 Exposes port `3000` by default.
 

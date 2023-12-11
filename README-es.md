@@ -1,3 +1,5 @@
+[Ingles](README.md)
+
 # SERVICIO DE AUTENTICACIÓN Y USUARIOS PARA URARA
 
 Este proyecto se desarrolla con Typescript y luego se transpila a javascript.
